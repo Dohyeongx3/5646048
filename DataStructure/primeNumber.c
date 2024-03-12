@@ -15,12 +15,14 @@ bool isPrime(int num) {
 }
 
 int main(void) {
-	printf("0부터 100까지의 소수: \n");
+	int sum = 0;
+	printf("0부터 100까지 소수: ");
 	for (int i = 0; i <= 100; i++) {
 		if (isPrime(i)) {
+			sum += i;
 			printf("%d ", i);  // 0부터 100까지 소수 출력
 		}
 	}
-	printf("\n");
+	printf("\n0부터 100까지의 소수들의 합: %d \n",sum);
 	return 0;
 }
