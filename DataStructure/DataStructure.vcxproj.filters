@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.c">
+    <ClCompile Include="primeNumber.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
