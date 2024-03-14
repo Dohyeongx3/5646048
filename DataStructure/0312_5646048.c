@@ -23,6 +23,6 @@ int main(void) {
 			printf("%d ", i);  // 0부터 100까지 소수 출력
 		}
 	}
-	printf("\n0부터 100까지의 소수들의 합: %d \n",sum);
+	printf("\n0부터 100까지의 소수들의 합: %d \n",sum); //0부터 100까지 소수들의 합 출력
 	return 0;
 }
